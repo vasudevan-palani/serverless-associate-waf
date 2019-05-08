@@ -1,8 +1,8 @@
 {
   "name": "serverless-apigw-waf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Associate a regional WAF with the AWS API Gateway used by your Serverless stack.",
-  "main": "lib/index.js",
+  "main": "lib/index_node6.js",
   "directories": {
     "lib": "lib"
   },
