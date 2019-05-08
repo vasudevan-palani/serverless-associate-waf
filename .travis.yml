@@ -20,9 +20,9 @@ jobs:
       script: echo "Publishing to NPM..."
       deploy:
         provider: npm
-        email: contact@michael-souza.com
+        email: vasudevan.palani@gmail.com
         api_key:
-          secure: UrwsyB+nJpAs3jGwSdtngOIE58Q+eL+MS74CiclymeHB1Rwcng42PqhMh/Prqr0xXu7Tao/vJmfRfHDGTFU3PGmbu/qt08DmLzKRbwedRtJLE9mUStLZ3fP3yHpAnZsmthsY1Q/cNl6142wzYEDlIw780ywtzoXdLqKOQgMZyaqqCdziX7qGwUBUC2pazFXiPJ69CEd66YeX7X7dBhXhFgpgVinlEzjBCo+dWMzAB9HyZBljAtk5TKkvtDhYUQ+Z5rWqnH1M+VrxsIPhgQuxl0ff5i7I6MNb+4Ejx5z1voEvFGBAIhhT0MYe/PqT/wgnpNhJ8VEV1dW59dXeiZBwxqfka1jVFy9h+cvuCJwT1lMOjqmdk/RRsuxKBP9YWi8UrAUpIrHBH0/VoOKTO4SyeOXZTbcVgD5MDkx+sT6bBrzA0aw5zKwaj82KUMbD0jL6x23HFwl65WgMRhXLTKdZfU0hTiMq2zeGTfwYtMeHdFiAdlXRXqfQYB8cSB/kQypf5dBRb6kSdr0Q11pos25atlacSkNdXdhNQNZuF4P/uaPts2uOI2xukRC75/MaZVqgKXZD8WzbK+KvCG8dcFwn3o125ogaafvHQ2/YiKb/AH0JjM0Ih35i7sLwjW5zMTl993CedRbOFH/kfo6Za3J49rzQJ8mfVNJEP+/PlX8/ngA=
+          secure: "h3zaONk8Jd4qjUbSEMFOSLWZjZ2wv8CVT07j3O3a0uOHrSjRzqxAIQapS9DSblt+jwY5agGflwcRYYNmKrvqou6zgfxEkFoL2+ay4bjlLnvtUJG+Xyug17SbhjldTtljgBkz22SMgJujOR6GXCQDdVwKmY7/pc2OLgraf55VHB0nRNxmktNrOqaPGuz8EaFS5Z1Xgz9rXuC1uhsrPjClLa7jdkbbtd6tdqnT+YFfDPDChOzSJWI4MI0ZP88odiuPdnFHP1Fc7Jd4Cn7beCSzPBpZ4CrwsJtKqnitugiVtR/QA9by3vgym43WSYpBXbIzti2ZmMxt9l6cyxi/n282bb58lemQIQ9OfJ4cPCDlQKSrCKlkZuoUWz1Bs6hAuoWHbthVZ743ceafehqrXt+zdh5JxFeS/Ifi+6hlVDmW/PYFm3wC6S0XjAQbfZ3EXUQzhcqHRM25EVOVyAq9Sf21HZMfnp7mDUc0rqdVVUB4W0TF4VP2McV52pTmC0CLZTimjRe2pZMBpPRYgVupgEH04UOvHNzs/lLh1kL29ZSX6vxNfZNJiFtOojt1Kgke8x7HzGgNKprqRXuvGVwml0idjkdQ4hFLryp3Cp5jYzLplXHKR/uG/rPD7QGszKKEbMZf80JerUHu62YOWLXcL7jgv37UbtoGGN6xmfsHF0xe4SY="
         on:
           branch: master
           tags: true
