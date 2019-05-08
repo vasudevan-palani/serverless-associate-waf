@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikeSouza/serverless-associate-waf.git"
+    "url": "git+https://github.com/vasudevan-palani/serverless-associate-waf.git"
   },
   "keywords": [
     "serverless",
@@ -30,16 +30,16 @@
   "author": "Mike Souza",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MikeSouza/serverless-associate-waf/issues"
+    "url": "https://github.com/vasudevan-palani/serverless-associate-waf/issues"
   },
-  "homepage": "https://github.com/MikeSouza/serverless-associate-waf#readme",
+  "homepage": "https://github.com/vasudevan-palani/serverless-associate-waf#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "jest": "^24.3.0",
+    "jest": "^24.8.0",
     "serverless": "^1.37.1"
   },
   "dependencies": {
