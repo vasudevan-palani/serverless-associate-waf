@@ -12,8 +12,6 @@ jobs:
       name: "Unit Tests + Coverage"
       script:
         - npm test
-        - echo "Report Coverage..."
-        - npm run coveralls
     - stage: publish
       name: "Publish to NPM"
       node_js: 'node'
